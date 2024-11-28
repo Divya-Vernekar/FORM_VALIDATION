@@ -1,0 +1,64 @@
+body {
+    padding: 10px 50px;
+  }
+
+  .formdesign {
+    font-size: 20px;
+  }
+
+  .formdesign input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 14px;
+    border: 1px solid aqua;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+
+  .formerror {
+    color: red;
+  }
+
+.but {
+padding: 17px 40px;
+border-radius: 50px;
+cursor: pointer;
+border: 0;
+background-color: rgb(245, 224, 224);
+box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+font-size: 15px;
+transition: all 0.5s ease;
+}
+
+.but:hover {
+letter-spacing: 3px;
+background-color: hsl(170, 80%, 48%);
+color: hsl(0, 2%, 28%);
+box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.but:active {
+letter-spacing: 3px;
+background-color: hsl(261deg 80% 48%);
+color: hsl(0, 0%, 100%);
+box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+transform: translateY(10px);
+transition: 100ms;
+}
+
+form{
+background-color: lightskyblue;
+width: 400px;
+padding: 50px 40px;
+position: absolute;
+transform: translate(-50%,-50%);
+top: 50%;
+left: 50%;
+box-shadow: 20px 80px 30px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+input{
+display: flex;
+}

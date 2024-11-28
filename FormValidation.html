@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="FormValidation.css">
+    <title>Form validation</title>
+  </head>
+<body>
+    <!-- <h1>Registration form</h1> -->
+    <form action="registration.png" name="myForm" onsubmit="return validateForm()">
+      <h1>Registration form</h1>
+
+      <div class="formdesign" id="name">
+        Name: <input type="text" name="fname" required placeholder="Enter Your Full Name"/><b>
+        <span class="formerror"></span> </b>
+      </div>
+
+      <div class="formdesign" id="email">
+        Email: <input type="email" name="femail" required placeholder="email@domain.com"/><b>
+        <span class="formerror"></span> </b>
+      </div>
+
+      <div class="formdesign" id="phone">
+        Phone No.: <input type="text" name="fphone" required placeholder="Enter Your 10 digit phone no." inputmode="numeric" pattern="[0-9]+"/><b>
+        <span class="formerror"></span> </b>
+      </div>
+
+      <div class="formdesign" id="pass">
+        Password: <input type="password" name="fpass" required placeholder="Enter Your unique password"/><b>
+        <span class="formerror"></span> </b>
+      </div>
+
+      <div class="formdesign" id="cpass">
+        Confirm Password: <input type="password" name="fcpass" required placeholder="Please confrim you password"/><b>
+        <span class="formerror"></span> </b>
+      </div>
+
+      <input class="but" type="submit" value="Submit">
+
+    </form>  </body>
+<script src="FormValidation.js"></script>
+</html>
+
